@@ -147,3 +147,22 @@ img {
    border-bottom: 3px solid var(--primary);
 
 }
+
+/* Footer */
+
+.site-footer {
+    border-top: 2px solid var(--lightGray);
+    padding: 6rem 0;
+}
+
+.site-footer .menu-item-39 {
+    font-family: var(--mainFont);
+    font-size: 1.8rem;
+    color: black;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
