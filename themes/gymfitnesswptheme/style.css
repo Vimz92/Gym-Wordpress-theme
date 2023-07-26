@@ -57,6 +57,10 @@ h1 {
     font-size: 6rem;
 }
 
+p{
+    font-size: 2rem;
+}
+
 h2 {
     font-size: 4.8rem;
     color: var(--primary);
@@ -88,6 +92,18 @@ img {
 }
 
 /* Utilities */
+
+.text-center {
+    text-align: center;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.section {
+   padding: 5rem 0; 
+}
 
 /* header */
 
@@ -148,21 +164,55 @@ img {
 
 }
 
+/* media query mobile */
+
+@media(min-width: 768px) {
+    .slicknav_menu {
+          display: none;
+    }
+
+    
+
+}
+
+.slicknav_btn {
+    background-color: var(--primary);
+}
+.slicknav_menu {
+    background-color: var(--daryGray);
+}
+
+.slicknav_nav {
+    font-family: var(--mainFont);
+
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.slicknav_nav li :hover{
+  background-color: transparent;
+  color: var(--primary);
+    
+}
+
 /* Footer */
 
 .site-footer {
     border-top: 2px solid var(--lightGray);
-    padding: 6rem 0;
+
 }
 
-.site-footer .menu-item-39 {
-    font-family: var(--mainFont);
-    font-size: 1.8rem;
-    color: black;
-}
 
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    font-family: var(--mainFont);
+   
+}
+
+/* page template */
+
+.page.no-sidebars {
+    max-width: 80rem;
 }
