@@ -147,9 +147,15 @@ img {
 
     .menu-main-menu-container li:last-of-type {
         margin-right: 0;
-    }
+    }   
+}
 
-    
+.featured-image {
+    margin-bottom: 3rem;
+}
+
+.page h1 {
+    margin-bottom: 4rem;
 }
 
 .menu-main-menu-container a {
@@ -215,4 +221,10 @@ img {
 
 .page.no-sidebars {
     max-width: 80rem;
+}
+
+@media(min-width: 768px ) {
+    .page.with-sidebar {
+     display: flex;
+    }
 }
